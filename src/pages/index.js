@@ -130,7 +130,7 @@ export default function Home() {
         </section>
         <p className={styles.worksWith}>Works with Claude Code · Codex · GitHub Copilot CLI · Antigravity CLI</p>
         <p className={styles.name}>
-          A derbent was a guarded post on an Ottoman mountain pass. Its keepers decided who went through and kept
+          In Turkish history, a derbent was a guarded post on a mountain pass. Its keepers decided who went through and kept
           a record of everyone who did.
         </p>
       </main>
