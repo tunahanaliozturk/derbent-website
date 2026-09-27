@@ -11,7 +11,12 @@ const baseUrl = process.env.BASE_URL || '/';
 export default {
   title: 'Derbent',
   tagline: 'One guarded pass for all your coding agents.',
-  favicon: 'derbent-favicon.svg',
+  // .ico for browsers that ignore SVG icons, the SVG for those that prefer it, a PNG for iOS home screens.
+  favicon: 'favicon.ico',
+  headTags: [
+    { tagName: 'link', attributes: { rel: 'icon', type: 'image/svg+xml', href: `${baseUrl}derbent-favicon.svg` } },
+    { tagName: 'link', attributes: { rel: 'apple-touch-icon', href: `${baseUrl}apple-touch-icon.png` } },
+  ],
   url,
   baseUrl,
   onBrokenLinks: 'throw',
